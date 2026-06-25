@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT s.student_id, s.student_name, su.subject_name, COUNT(e.subject_name) AS attended_exams
 FROM students as s
 CROSS JOIN subjects as su

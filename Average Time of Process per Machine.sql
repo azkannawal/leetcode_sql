@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT a.machine_id, ROUND(AVG(ac.timestamp - a.timestamp), 3) AS processing_time
 FROM activity a
 INNER JOIN activity ac

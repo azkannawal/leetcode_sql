@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT e.name
 FROM employee as e
 INNER JOIN employee as em

@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT v.customer_id, COUNT(v.visit_id) AS count_no_trans
 FROM visits AS v
 LEFT JOIN transactions AS t
